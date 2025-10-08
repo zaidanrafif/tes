@@ -1,5 +1,5 @@
 import { getProduct, getProducts } from '@/lib/api';
-import { ProductCarousel } from '@/components/product/product-carousel';
+import { Carousel } from '@/app/components/Carousel';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import { Star, Package, Truck, RefreshCw, Shield } from 'lucide-react';
@@ -37,7 +37,7 @@ export default async function ProductPage({
       <div className="container mx-auto px-4 py-8">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
           <div>
-            <ProductCarousel images={product.images} title={product.title} />
+            <Carousel images={product.images} title={product.title} />
           </div>
 
           <div className="space-y-6">
