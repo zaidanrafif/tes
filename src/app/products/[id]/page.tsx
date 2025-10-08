@@ -1,5 +1,5 @@
 import { getProduct, getProducts } from '@/lib/api';
-import { ProductCarousel } from '@/components/product-carousel';
+import { ProductCarousel } from '@/components/product/product-carousel';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import { Star, Package, Truck, RefreshCw, Shield } from 'lucide-react';

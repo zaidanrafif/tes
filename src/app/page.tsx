@@ -1,5 +1,5 @@
 import { getProducts, getCategories } from '@/lib/api';
-import { ProductsList } from '@/components/products-list';
+import { ProductsList } from '@/components/product/products-list';
 import { Package } from 'lucide-react';
 
 export default async function Home() {
